@@ -1,3 +1,8 @@
 git init
 git config --local user.name wangshiliang
 git config --local user.email megekol@163.com
+ssh-keygen -t rsa
+cd /home/wsl/.ssh/****pub
+#copy contents to clickboard
+#paste in github account
+ssh -T git@github.com
