@@ -9,3 +9,7 @@ ssh -T git@github.com
 #get token
 #connect to remote github
 git remote add origin https://[token]@github.com/[user]/[repo]
+
+git add --all
+git commit -m "info"
+git push -u origin master
