@@ -1,0 +1,3 @@
+git init
+git config --local user.name wangshiliang
+git config --local user.email megekol@163.com
