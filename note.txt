@@ -6,3 +6,6 @@ cd /home/wsl/.ssh/****pub
 #copy contents to clickboard
 #paste in github account
 ssh -T git@github.com
+#get token
+#connect to remote github
+git remote add origin https://[token]@github.com/[user]/[repo]
